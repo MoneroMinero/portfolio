@@ -207,7 +207,9 @@ main { min-height: 100svh; }
 /* ---------- about / contact ---------- */
 .dvostupac { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(24px, 5vw, 80px); align-items: start; }
 @media (max-width: 760px) { .dvostupac { grid-template-columns: 1fr; } }
-.dvostupac img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; border-radius: 12px; box-shadow: var(--sjena); }
+/* fotka na About: cijela, bez rezanja, i ne viša od ~70 % ekrana */
+.dvostupac img { display: block; width: auto; max-width: 100%; height: auto; max-height: 70vh; justify-self: end; border-radius: 12px; box-shadow: var(--sjena); }
+@media (max-width: 760px) { .dvostupac img { justify-self: start; } }
 .prozni { max-width: 62ch; color: #cfccc6; font-size: 17px; }
 .prozni p { margin: 0 0 1.1em; }
 .kontakt { display: grid; gap: 28px; }
