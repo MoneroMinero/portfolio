@@ -12,6 +12,7 @@ Fotke stavljaš u mapu `public/fotke`, u pravu podmapu:
 | `public/fotke/live-music` | Work → Live Music |
 | `public/fotke/atmosphere` | Work → Atmosphere |
 | `public/fotke/portraits` | Work → Portraits (bez imena benda preko fotke) |
+| `public/fotke/about` | fotka na About stranici (prva u mapi) |
 | `public/fotke/expanded-work/Ime Artista/` | Expanded Work: svaki artist ima svoju podmapu |
 
 **Ime datoteke = natpis.** Počni s datumom pa ime izvođača:
