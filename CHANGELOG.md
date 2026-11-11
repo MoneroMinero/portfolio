@@ -3,7 +3,10 @@
 Svaka verzija je spremljena na GitHubu (**Commits**), a uz svaku verziju ovdje piše njezin kod.
 Na Vercelu pod **Deployments** možeš svaku staru verziju vratiti jednim klikom („Instant Rollback”).
 
-## v1.4 — 12. 11. 2026.
+## v1.5 — 12. 11. 2026.
+- Contact: maknut podnaslov „Bookings, tours, editorial”
+
+## v1.4 — 12. 11. 2026. · [3e6b708](https://github.com/MoneroMinero/portfolio/commit/3e6b708)
 - Lazy loading: fotke se učitavaju tek kad dođu blizu ekrana (na kompjuteru i na mobitelu)
 - Sličice se šalju kao manje WebP verzije prema veličini ekrana; naslovnica je pala s oko 4,8 MB na 0,3 MB
 - Povećana fotka: 1080 ili 1920 px ovisno o ekranu, sljedeća se učita unaprijed
