@@ -3,7 +3,13 @@
 Svaka verzija je spremljena na GitHubu (**Commits**), a uz svaku verziju ovdje piše njezin kod.
 Na Vercelu pod **Deployments** možeš svaku staru verziju vratiti jednim klikom („Instant Rollback”).
 
-## v1.3 — 12. 11. 2026.
+## v1.4 — 12. 11. 2026.
+- Lazy loading: fotke se učitavaju tek kad dođu blizu ekrana (na kompjuteru i na mobitelu)
+- Sličice se šalju kao manje WebP verzije prema veličini ekrana; naslovnica je pala s oko 4,8 MB na 0,3 MB
+- Povećana fotka: 1080 ili 1920 px ovisno o ekranu, sljedeća se učita unaprijed
+- Originalne fotke u `public/fotke` ostaju iste, smanjivanje radi Vercel sam
+
+## v1.3 — 12. 11. 2026. · [e743bb9](https://github.com/MoneroMinero/portfolio/commit/e743bb9)
 - Novi izbornik za mobitel: cijeli ekran, velika slova poravnata lijevo, Work kategorije kao gumbići
 - Dok je izbornik otvoren, stranica ispod se ne pomiče i WhatsApp gumb se skriva
 - Naslovi stranica (npr. ATMOSPHERE) više ne izlaze preko ruba ekrana na mobitelu

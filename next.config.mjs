@@ -1,6 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  // manje verzije fotki (WebP) se spremaju 31 dan, da se ne rade iznova
+  images: { minimumCacheTTL: 2678400, formats: ["image/webp"] },
   // fotke se dugo spremaju u preglednik (brže otvaranje stranice drugi put)
   async headers() {
     return [
