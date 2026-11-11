@@ -8,8 +8,7 @@ const POSTAVKE = {
   podnaslov: "Concert & Portrait Photography",
 
   oMeni: [
-    "A short introduction goes here: who you are, where you are based, what you photograph.",
-    "Second paragraph: who you have worked with, which concerts and festivals you shoot, how to get in touch."
+    "Since I was a kid, I've always been the worst in the pit... Now I just have a camera with me."
   ],
 
   email: "sostaric.marin@gmail.com",
