@@ -208,7 +208,17 @@ main { min-height: 100svh; }
 .dvostupac { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(24px, 5vw, 80px); align-items: start; }
 @media (max-width: 760px) { .dvostupac { grid-template-columns: 1fr; } }
 /* fotka na About: cijela, bez rezanja, i ne viša od ~70 % ekrana */
-.dvostupac img { display: block; width: auto; max-width: 100%; height: auto; max-height: 70vh; justify-self: end; border-radius: 12px; box-shadow: var(--sjena); }
+.dvostupac img {
+  display: block; width: auto; max-width: 100%; height: auto; max-height: 70vh; justify-self: end;
+  /* mekani rub (feather): fotka se na rubovima nježno stapa s crnom pozadinom */
+  --pero: 9%;
+  -webkit-mask-image: linear-gradient(to right, transparent, #000 var(--pero), #000 calc(100% - var(--pero)), transparent),
+                      linear-gradient(to bottom, transparent, #000 var(--pero), #000 calc(100% - var(--pero)), transparent);
+  -webkit-mask-composite: source-in;
+  mask-image: linear-gradient(to right, transparent, #000 var(--pero), #000 calc(100% - var(--pero)), transparent),
+              linear-gradient(to bottom, transparent, #000 var(--pero), #000 calc(100% - var(--pero)), transparent);
+  mask-composite: intersect;
+}
 @media (max-width: 760px) { .dvostupac img { justify-self: start; } }
 .prozni { max-width: 62ch; color: #cfccc6; font-size: 17px; }
 .prozni p { margin: 0 0 1.1em; }
