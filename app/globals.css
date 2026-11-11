@@ -68,23 +68,51 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
 }
 .hamburger { display: none; font-size: 12px; letter-spacing: .18em; text-transform: uppercase; justify-self: end; }
 
+/* ---------- izbornik na mobitelu: cijeli ekran, poravnato lijevo, velika slova ---------- */
 @media (max-width: 860px) {
   .zaglavlje { grid-template-columns: 1fr auto; }
   .zaglavlje > .mreze { display: none; }
-  .ime { justify-self: start; grid-column: 1; grid-row: 1; }
-  .hamburger { display: block; grid-column: 2; grid-row: 1; }
+  .ime { justify-self: start; grid-column: 1; grid-row: 1; position: relative; z-index: 2; }
+  .hamburger {
+    display: block; grid-column: 2; grid-row: 1; position: relative; z-index: 2;
+    padding: 10px 0 10px 16px; color: var(--izbornik-aktivno);
+  }
+  .meni-otvoren, .meni-otvoren body { overflow: hidden; }
+  .meni-otvoren .zaglavlje { background: var(--crna); box-shadow: none; }
+  .meni-otvoren .whatsapp { opacity: 0; visibility: hidden; }
   .izbornik {
-    position: fixed; inset: 0; z-index: -1; background: var(--crna);
-    flex-direction: column; justify-content: center; gap: 22px;
-    opacity: 0; visibility: hidden; transition: .25s;
+    position: fixed; inset: 0; z-index: 1; background: var(--crna);
+    display: flex; flex-direction: column; align-items: stretch; justify-content: flex-start; gap: 0;
+    padding: calc(96px + env(safe-area-inset-top, 0px)) var(--gutter-d) calc(32px + env(safe-area-inset-bottom, 0px)) var(--gutter);
+    overflow-y: auto; opacity: 0; visibility: hidden; transition: opacity .3s ease, visibility .3s;
   }
   .izbornik.otvoren { opacity: 1; visibility: visible; }
-  .izbornik a { font: 600 30px/1 var(--naslov); letter-spacing: .08em; }
-  .podizbornik { position: static; opacity: 1; visibility: visible; transform: none; background: none;
-    padding: 12px 0 0; min-width: 0; }
-  .podizbornik a { font-size: 20px; }
-  .mreze-mobitel { display: flex; margin-top: 12px; justify-self: auto; }
+  .izbornik > a, .work > a {
+    display: block; padding: 18px 0;
+    font: 400 clamp(28px, 9vw, 40px)/1 var(--moore); letter-spacing: .01em; text-transform: uppercase;
+    color: var(--izbornik); border-bottom: 1px solid var(--crta);
+  }
+  .work > a { border-bottom: 0; padding-bottom: 10px; }
+  .izbornik > a.aktivno, .work > a.aktivno, .izbornik > a:active { color: var(--bijela); }
+  .work { border-bottom: 1px solid var(--crta); padding-bottom: 16px; }
+  .podizbornik {
+    position: static; opacity: 1; visibility: visible; transform: none; background: none; box-shadow: none;
+    display: flex; flex-wrap: wrap; gap: 8px; padding: 0; min-width: 0; text-align: left; border-radius: 0;
+  }
+  .podizbornik a {
+    font: 500 12px/1 var(--naslov); letter-spacing: .16em; text-transform: uppercase;
+    padding: 10px 14px; border: 1px solid var(--crta); border-radius: 999px; color: var(--izbornik);
+  }
+  .podizbornik a.aktivno { color: var(--crna); background: var(--izbornik-aktivno); border-color: var(--izbornik-aktivno); }
+  .mreze-mobitel { display: flex; margin-top: auto; padding-top: 32px; gap: 22px; justify-self: auto; }
   .mreze-mobitel a { width: 24px; height: 24px; }
+  /* stavke izbornika lagano dolaze odozdo jedna za drugom */
+  .izbornik > * { opacity: 0; translate: 0 14px; transition: opacity .35s ease, translate .35s ease; }
+  .izbornik.otvoren > * { opacity: 1; translate: 0 0; }
+  .izbornik.otvoren > :nth-child(2) { transition-delay: .05s; }
+  .izbornik.otvoren > :nth-child(3) { transition-delay: .1s; }
+  .izbornik.otvoren > :nth-child(4) { transition-delay: .15s; }
+  .izbornik.otvoren > :nth-child(5) { transition-delay: .2s; }
 }
 
 /* ---------- naslovnica: kolaž, stupci se pomiču različitom brzinom ---------- */
@@ -121,6 +149,8 @@ main { min-height: 100svh; }
   letter-spacing: .01em; text-wrap: balance;
   text-shadow: 0 2px 28px rgba(242, 240, 236, .16), 0 22px 44px rgba(0, 0, 0, .8);
 }
+@media (max-width: 600px) { .naslov-stranice { font-size: clamp(24px, 8.4vw, 44px); overflow-wrap: anywhere; } }
+main { overflow-x: clip; }
 .broj { color: var(--siva); font-size: 12px; letter-spacing: .18em; text-transform: uppercase; margin: 0 0 40px; }
 
 .kategorije { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
@@ -293,7 +323,7 @@ main { min-height: 100svh; }
 
 /* ---------- povećanje fotke: fotka na cijeli ekran, tekst preko fotke ---------- */
 .lightbox {
-  position: fixed; inset: 0; z-index: 50; background: rgba(0,0,0,.97);
+  position: fixed; inset: 0; z-index: 50; background: #000;
   opacity: 0; visibility: hidden; transition: .25s;
 }
 .lightbox.otvoren { opacity: 1; visibility: visible; }

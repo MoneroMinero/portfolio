@@ -36,3 +36,7 @@ sama se objavi za minutu-dvije. Ne moraš ništa pokretati.
 ## Za programere
 `npm install`, pa `npm run dev` (pregled na http://localhost:3000) ili `npm run build`.
 Logika stranice je u `lib/stranica.js`, popis fotki u `lib/fotke.js`.
+
+## Verzije
+Svaka objavljena verzija je zapisana u `CHANGELOG.md` i spremljena na GitHubu kao oznaka (npr. `v1.3`).
+Ako nešto pođe po zlu, na Vercelu pod **Deployments** možeš vratiti bilo koju staru verziju.
