@@ -257,7 +257,8 @@ main { min-height: 100svh; }
 .odabrani-datum { margin: 6px 0 0; color: var(--siva); font-size: 14px; }
 
 .podnozje {
-  padding: 40px var(--gutter-d) calc(40px + env(safe-area-inset-bottom, 0px)) var(--gutter);
+  /* dolje ima mjesta za WhatsApp gumb, da ne prekriva tekst */
+  padding: 40px var(--gutter-d) calc(92px + env(safe-area-inset-bottom, 0px)) var(--gutter);
   display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap;
   font-size: 11px; letter-spacing: .16em; text-transform: uppercase; color: var(--siva);
   border-top: 1px solid var(--crta);
