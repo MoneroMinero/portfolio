@@ -9,6 +9,7 @@ const POSTAVKE = {
 
   oMeni: [
     "Since I was a kid, I've always been the worst in the pit... Now I just have a camera with me.",
+    "I've found my passion, and I love what I do. Music and photography: when you combine two passions it can be great or it can be a disaster, but so far, so good.",
     "Based in Zagreb, shooting concerts, festivals and portraits."
   ],
 
