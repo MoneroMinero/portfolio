@@ -38,5 +38,5 @@ sama se objavi za minutu-dvije. Ne moraš ništa pokretati.
 Logika stranice je u `lib/stranica.js`, popis fotki u `lib/fotke.js`.
 
 ## Verzije
-Svaka objavljena verzija je zapisana u `CHANGELOG.md` i spremljena na GitHubu kao oznaka (npr. `v1.3`).
+Svaka objavljena verzija je zapisana u `CHANGELOG.md` i spremljena na GitHubu (Commits).
 Ako nešto pođe po zlu, na Vercelu pod **Deployments** možeš vratiti bilo koju staru verziju.
