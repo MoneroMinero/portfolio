@@ -3,7 +3,10 @@
 Svaka verzija je spremljena na GitHubu (**Commits**), a uz svaku verziju ovdje piše njezin kod.
 Na Vercelu pod **Deployments** možeš svaku staru verziju vratiti jednim klikom („Instant Rollback”).
 
-## v1.9 — 12. 11. 2026.
+## v1.10 — 12. 11. 2026.
+- Naslovnica vraćena na raspored iz v1.7 (stari redoslijed ti se više sviđa); promjene iz v1.8 i v1.9 maknute
+
+## v1.9 — 12. 11. 2026. · [2583260](https://github.com/MoneroMinero/portfolio/commit/2583260)
 - Naslovnica složena da bude dinamična: nijedan bend se ne ponavlja dok se svi ne izmijenjaju
 - Fotke jedna do druge biraju se da se što više razlikuju po boji, svjetlini, orijentaciji (uspravna/položena) i rasporedu svjetla
 - Izgled fotki računa `alati/izgled-fotki.py` (pokrenuti kad se dodaju nove fotke na naslovnicu); `jakeFotke` iz v1.8 maknut
