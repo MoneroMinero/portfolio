@@ -3,7 +3,15 @@
 Svaka verzija je spremljena na GitHubu (**Commits**), a uz svaku verziju ovdje piše njezin kod.
 Na Vercelu pod **Deployments** možeš svaku staru verziju vratiti jednim klikom („Instant Rollback”).
 
-## v1.5 — 12. 11. 2026.
+## v1.6 — 12. 11. 2026.
+- Popravak: ime benda (npr. Loš Primjer) na povećanoj fotki više ne izlazi izvan fotke na velikim ekranima
+- Live Music: svih 24 benda ima barem jednu fotku (dodani Fakofbolan, Goblini, Loš Primjer, Zrakoteka, Out Of Civilization, Kal's Penny)
+- Live Music: redoslijed po jačini bendova (popis `redoslijedBendova` u `postavke.js`)
+- Naslovnica: 41 → 33 fotke, najviše 2 po bendu, svaki bend barem jednom; maknute fotke su u `public/fotke/_rezerva/naslovna`
+- Gore lijevo piše PiTmArin, a kad se pređe mišem Marin Šoštarić (na mobitelu se sami izmjenjuju)
+- Google SEO: novi naslov i opis stranice, slika za dijeljenje linka, podaci o fotografu za Google, robots.txt i sitemap.xml
+
+## v1.5 — 12. 11. 2026. · [3dd5328](https://github.com/MoneroMinero/portfolio/commit/3dd5328)
 - Contact: maknut podnaslov „Bookings, tours, editorial”
 
 ## v1.4 — 12. 11. 2026. · [3e6b708](https://github.com/MoneroMinero/portfolio/commit/3e6b708)

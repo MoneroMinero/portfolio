@@ -27,6 +27,8 @@ Savjet: prije dodavanja smanji fotke na oko 2500 px dužu stranicu (JPG, kvalite
 - `bendovi.js` — linkovi bendova (Instagram, Bandcamp…) koji se pokažu uz povećanu fotku
 - `natpisi.js` — pravo ime benda i gdje se ime ispisuje preko pojedine fotke
 
+U `postavke.js` su i `nadimak` (PiTmArin) i `redoslijedBendova` (koji bendovi su prvi u Live Music).
+
 Mijenjaj samo tekst između navodnika.
 
 ## Objava

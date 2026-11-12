@@ -4,7 +4,8 @@
 //  Ako nešto ne želiš prikazati, ostavi prazne navodnike "".
 // =====================================================
 const POSTAVKE = {
-  ime: "Marin Šoštarić",                 // ime u zaglavlju i naslovu stranice
+  ime: "Marin Šoštarić",
+  nadimak: "PiTmArin",                   // piše gore lijevo; kad se pređe mišem, pokaže se pravo ime                 // ime u zaglavlju i naslovu stranice
   podnaslov: "Concert & Portrait Photography",
 
   oMeni: [
@@ -22,6 +23,14 @@ const POSTAVKE = {
   facebook: "",                          // upiši link kad složimo profil
   instagram: "",
   x: "",
+
+  // Redoslijed bendova u Live Music: prvi su najjači, a ostali bendovi idu iza njih (najnoviji prvi).
+  // Ime mora biti napisano kao natpis na fotki.
+  redoslijedBendova: [
+    "Let 3", "Kawasaki 3p", "Fakofbolan", "Goblini", "Električni orgazam", "Repetitor",
+    "Pičke Vrište", "A Gram Trip", "Loš Primjer", "Tito's Bojs", "Embrio", "Ignor",
+    "Ewinar", "Mitraljez", "Mamut", "rtificial:red"
+  ],
 
   // Koliko brzo se fotke vrte na naslovnici (sekunde za jedan krug; više = sporije)
   brzinaNaslovnice: 210
