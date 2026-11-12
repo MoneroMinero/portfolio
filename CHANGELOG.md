@@ -3,7 +3,11 @@
 Svaka verzija je spremljena na GitHubu (**Commits**), a uz svaku verziju ovdje piše njezin kod.
 Na Vercelu pod **Deployments** možeš svaku staru verziju vratiti jednim klikom („Instant Rollback”).
 
-## v1.13 — 12. 11. 2026.
+## v1.14 — 12. 11. 2026.
+- Popravak: Fakofbolan, Mitraljez i Relification na naslovnici pokazivali su staru fotku, a klik je otvarao novu (Vercel je pamtio staru pod istim imenom). Datoteke preimenovane u „… (5).jpg”
+- UPUTE.md: kod zamjene fotke daj novoj fotki novo ime
+
+## v1.13 — 12. 11. 2026. · [f7ce09c](https://github.com/MoneroMinero/portfolio/commit/f7ce09c)
 - PiTmArin: slova iste visine kao Marin Šoštarić, razvučena u širinu tako da su oba natpisa jednako duga (umjesto razmaka iz v1.12)
 
 ## v1.12 — 12. 11. 2026. · [5e8c1a0](https://github.com/MoneroMinero/portfolio/commit/5e8c1a0)
