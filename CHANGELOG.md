@@ -3,7 +3,10 @@
 Svaka verzija je spremljena na GitHubu (**Commits**), a uz svaku verziju ovdje piše njezin kod.
 Na Vercelu pod **Deployments** možeš svaku staru verziju vratiti jednim klikom („Instant Rollback”).
 
-## v1.19 — 12. 11. 2026.
+## v1.20 — 12. 11. 2026.
+- Mobitel: ime i MENU/CLOSE su iste širine (svaki pola ekrana) i iste visine; MENU razvučen u širinu kao PiTmArin
+
+## v1.19 — 12. 11. 2026. · [88a0be9](https://github.com/MoneroMinero/portfolio/commit/88a0be9)
 - Atmosphere izmiješana: isti bend više nije jedan ispod ili pored drugoga (ni na mobitelu)
 - Atmosphere: dodane dvije nove fotke publike s 9. 10. (DSC_4516 i DSC_4526), namjerno daleko jedna od druge; sad 16 fotki
 

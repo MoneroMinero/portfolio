@@ -397,3 +397,18 @@ main { overflow-x: clip; }
   *, *::before, *::after { animation: none !important; transition-duration: .01ms !important; }
   .galerija .ulaz { opacity: 1; transform: none; }
 }
+
+/* ---------- mobitel: ime i MENU iste širine (svaki pola ekrana) i iste visine;
+   MENU/CLOSE razvučen u širinu kao PiTmArin ---------- */
+@media (max-width: 860px) {
+  .zaglavlje { --pola: calc((100vw - var(--gutter) - var(--gutter-d) - 24px) / 2); column-gap: 24px; }
+  .ime { font-size: calc(var(--pola) / 13.04); }
+  .hamburger {
+    font: 400 calc(var(--pola) / 13.04)/1 var(--moore); text-transform: uppercase; letter-spacing: .02em;
+    color: var(--izbornik-aktivno); -webkit-text-stroke: 3px #000; paint-order: stroke fill;
+    text-shadow: 0 0 1px #000, 0 2px 6px rgba(0, 0, 0, .9);
+    width: var(--pola); padding: 10px 0; text-align: left;
+    transform: scaleX(3.07); transform-origin: left center;
+  }
+  .hamburger[aria-expanded="true"] { transform: scaleX(2.535); }
+}
