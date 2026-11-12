@@ -3,7 +3,12 @@
 Svaka verzija je spremljena na GitHubu (**Commits**), a uz svaku verziju ovdje piše njezin kod.
 Na Vercelu pod **Deployments** možeš svaku staru verziju vratiti jednim klikom („Instant Rollback”).
 
-## v1.7 — 12. 11. 2026.
+## v1.8 — 12. 11. 2026.
+- Naslovnica složena po važnosti: prvo po jedna fotka svakog benda redom iz `redoslijedBendova` (Let 3, Kawasaki 3p, Fakofbolan…), zatim ostali bendovi, a druge fotke istih bendova idu na kraj
+- Novo u `postavke.js`: `jakeFotke` – fotke upisane tu idu ranije, oko 6 mjesta iza prve fotke svog benda
+- Ista fotka benda i dalje nikad nije odmah ispod ili pored iste
+
+## v1.7 — 12. 11. 2026. · [9a64578](https://github.com/MoneroMinero/portfolio/commit/9a64578)
 - Ewinar se sad piše **Ewiniar** (posvuda na webu)
 - Naslovnica po tvojoj presudi: Repetitor (2) → (4), vraćen A Gram Trip (3), Canubis (2) → (3) i vraćen (4)
 - Naslovnica: Fakofbolan zamijenjen s DSC_9147, Mitraljez s DSC_2369, Relification s DSC_6462

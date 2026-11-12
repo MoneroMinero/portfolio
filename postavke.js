@@ -33,6 +33,9 @@ const POSTAVKE = {
   ],
 
   // Koliko brzo se fotke vrte na naslovnici (sekunde za jedan krug; više = sporije)
+  // Naslovnica: druge fotke istog benda idu na kraj. Fotke upisane ovdje su "baš jake"
+  // pa idu ranije, oko 6 mjesta iza prve fotke tog benda. Upiši ime datoteke bez .jpg.
+  jakeFotke: [],
   brzinaNaslovnice: 210
 };
 export default POSTAVKE;
