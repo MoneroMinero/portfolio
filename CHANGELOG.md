@@ -3,7 +3,10 @@
 Svaka verzija je spremljena na GitHubu (**Commits**), a uz svaku verziju ovdje piše njezin kod.
 Na Vercelu pod **Deployments** možeš svaku staru verziju vratiti jednim klikom („Instant Rollback”).
 
-## v1.17 — 12. 11. 2026.
+## v1.18 — 12. 11. 2026.
+- Atmosphere: na povećanim fotkama više nema imena bendova (kao i na portretima)
+
+## v1.17 — 12. 11. 2026. · [ef2e093](https://github.com/MoneroMinero/portfolio/commit/ef2e093)
 - Pičke Vrište (bubnjar): natpis podignut skroz gore desno
 
 ## v1.16 — 12. 11. 2026. · [486acda](https://github.com/MoneroMinero/portfolio/commit/486acda)
