@@ -41,7 +41,7 @@ const NATPISI = {
     "naslovna/2026-10-24 A Gram Trip (2).jpg": { x: 50, y: 3 },
     "naslovna/2026-11-06 Ignor (2).jpg": "dolje-lijevo",
     "naslovna/2026-10-24 Canubis.jpg": "dolje-desno",
-    "naslovna/2026-11-07 Pičke Vrište.jpg": { x: 49, y: 12, poravnaj: "lijevo", velicina: 1.1, fiksno: true },
+    "naslovna/2026-11-07 Pičke Vrište.jpg": { x: 50, y: 8, poravnaj: "lijevo", velicina: 1, fiksno: true },
     "naslovna/2026-10-31 Ewinar.jpg": "dolje-desno",
     "naslovna/2026-08-22 Let 3.jpg": "dolje-lijevo",
     "naslovna/2026-11-01 Embrio.jpg": "dolje-lijevo",
