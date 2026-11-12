@@ -3,7 +3,12 @@
 Svaka verzija je spremljena na GitHubu (**Commits**), a uz svaku verziju ovdje piše njezin kod.
 Na Vercelu pod **Deployments** možeš svaku staru verziju vratiti jednim klikom („Instant Rollback”).
 
-## v1.8 — 12. 11. 2026.
+## v1.9 — 12. 11. 2026.
+- Naslovnica složena da bude dinamična: nijedan bend se ne ponavlja dok se svi ne izmijenjaju
+- Fotke jedna do druge biraju se da se što više razlikuju po boji, svjetlini, orijentaciji (uspravna/položena) i rasporedu svjetla
+- Izgled fotki računa `alati/izgled-fotki.py` (pokrenuti kad se dodaju nove fotke na naslovnicu); `jakeFotke` iz v1.8 maknut
+
+## v1.8 — 12. 11. 2026. · [b4a3c5a](https://github.com/MoneroMinero/portfolio/commit/b4a3c5a)
 - Naslovnica složena po važnosti: prvo po jedna fotka svakog benda redom iz `redoslijedBendova` (Let 3, Kawasaki 3p, Fakofbolan…), zatim ostali bendovi, a druge fotke istih bendova idu na kraj
 - Novo u `postavke.js`: `jakeFotke` – fotke upisane tu idu ranije, oko 6 mjesta iza prve fotke svog benda
 - Ista fotka benda i dalje nikad nije odmah ispod ili pored iste
