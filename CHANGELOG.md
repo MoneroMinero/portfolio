@@ -3,7 +3,10 @@
 Svaka verzija je spremljena na GitHubu (**Commits**), a uz svaku verziju ovdje piše njezin kod.
 Na Vercelu pod **Deployments** možeš svaku staru verziju vratiti jednim klikom („Instant Rollback”).
 
-## v1.10 — 12. 11. 2026.
+## v1.11 — 12. 11. 2026.
+- PiTmArin u zaglavlju je sad iste širine kao Marin Šoštarić (veća slova)
+
+## v1.10 — 12. 11. 2026. · [97ffbfa](https://github.com/MoneroMinero/portfolio/commit/97ffbfa)
 - Naslovnica vraćena na raspored iz v1.7 (stari redoslijed ti se više sviđa); promjene iz v1.8 i v1.9 maknute
 
 ## v1.9 — 12. 11. 2026. · [2583260](https://github.com/MoneroMinero/portfolio/commit/2583260)
