@@ -3,7 +3,11 @@
 Svaka verzija je spremljena na GitHubu (**Commits**), a uz svaku verziju ovdje piše njezin kod.
 Na Vercelu pod **Deployments** možeš svaku staru verziju vratiti jednim klikom („Instant Rollback”).
 
-## v1.18 — 12. 11. 2026.
+## v1.19 — 12. 11. 2026.
+- Atmosphere izmiješana: isti bend više nije jedan ispod ili pored drugoga (ni na mobitelu)
+- Atmosphere: dodane dvije nove fotke publike s 9. 10. (DSC_4516 i DSC_4526), namjerno daleko jedna od druge; sad 16 fotki
+
+## v1.18 — 12. 11. 2026. · [8e96b9c](https://github.com/MoneroMinero/portfolio/commit/8e96b9c)
 - Atmosphere: na povećanim fotkama više nema imena bendova (kao i na portretima)
 
 ## v1.17 — 12. 11. 2026. · [ef2e093](https://github.com/MoneroMinero/portfolio/commit/ef2e093)
