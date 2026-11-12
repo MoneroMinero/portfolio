@@ -29,7 +29,7 @@ const POSTAVKE = {
   redoslijedBendova: [
     "Let 3", "Kawasaki 3p", "Fakofbolan", "Goblini", "Električni orgazam", "Repetitor",
     "Pičke Vrište", "A Gram Trip", "Loš Primjer", "Tito's Bojs", "Embrio", "Ignor",
-    "Ewinar", "Mitraljez", "Mamut", "rtificial:red"
+    "Ewiniar", "Mitraljez", "Mamut", "rtificial:red"
   ],
 
   // Koliko brzo se fotke vrte na naslovnici (sekunde za jedan krug; više = sporije)

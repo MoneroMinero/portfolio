@@ -24,7 +24,8 @@
 // =====================================================
 const NATPISI = {
   imena: {
-    "rtificialred": "rtificial:red"
+    "rtificialred": "rtificial:red",
+    "Ewinar": "Ewiniar"
   },
   mjesta: {
     "naslovna/2026-10-31 Ewinar (3).jpg": "gore-lijevo",

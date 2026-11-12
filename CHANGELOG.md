@@ -3,7 +3,13 @@
 Svaka verzija je spremljena na GitHubu (**Commits**), a uz svaku verziju ovdje piše njezin kod.
 Na Vercelu pod **Deployments** možeš svaku staru verziju vratiti jednim klikom („Instant Rollback”).
 
-## v1.6 — 12. 11. 2026.
+## v1.7 — 12. 11. 2026.
+- Ewinar se sad piše **Ewiniar** (posvuda na webu)
+- Naslovnica po tvojoj presudi: Repetitor (2) → (4), vraćen A Gram Trip (3), Canubis (2) → (3) i vraćen (4)
+- Naslovnica: Fakofbolan zamijenjen s DSC_9147, Mitraljez s DSC_2369, Relification s DSC_6462
+- Naslovnica sad ima 35 fotki; maknute su i dalje u `public/fotke/_rezerva/naslovna`
+
+## v1.6 — 12. 11. 2026. · [bd0d0d0](https://github.com/MoneroMinero/portfolio/commit/bd0d0d0)
 - Popravak: ime benda (npr. Loš Primjer) na povećanoj fotki više ne izlazi izvan fotke na velikim ekranima
 - Live Music: svih 24 benda ima barem jednu fotku (dodani Fakofbolan, Goblini, Loš Primjer, Zrakoteka, Out Of Civilization, Kal's Penny)
 - Live Music: redoslijed po jačini bendova (popis `redoslijedBendova` u `postavke.js`)
