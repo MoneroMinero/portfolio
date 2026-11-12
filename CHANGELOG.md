@@ -3,7 +3,10 @@
 Svaka verzija je spremljena na GitHubu (**Commits**), a uz svaku verziju ovdje piše njezin kod.
 Na Vercelu pod **Deployments** možeš svaku staru verziju vratiti jednim klikom („Instant Rollback”).
 
-## v1.16 — 12. 11. 2026.
+## v1.17 — 12. 11. 2026.
+- Pičke Vrište (bubnjar): natpis podignut skroz gore desno
+
+## v1.16 — 12. 11. 2026. · [486acda](https://github.com/MoneroMinero/portfolio/commit/486acda)
 - Pičke Vrište (bubnjar): natpis malo manji i podignut više
 
 ## v1.15 — 12. 11. 2026. · [5c1dcc0](https://github.com/MoneroMinero/portfolio/commit/5c1dcc0)
