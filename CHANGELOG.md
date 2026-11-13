@@ -3,7 +3,11 @@
 Svaka verzija je spremljena na GitHubu (**Commits**), a uz svaku verziju ovdje piše njezin kod.
 Na Vercelu pod **Deployments** možeš svaku staru verziju vratiti jednim klikom („Instant Rollback”).
 
-## v1.20 — 12. 11. 2026.
+## v1.21 — 13. 11. 2026.
+- Novi bendovi s koncerta 12. 11.: **Mars Red Sky** (DSC_1425) i **Monolord** (DSC_1915)
+- Obje fotke dodane na naslovnicu (sad 37) i u Live Music; otvorene njihove galerije u Expanded Work (26 artista)
+
+## v1.20 — 12. 11. 2026. · [cf443e9](https://github.com/MoneroMinero/portfolio/commit/cf443e9)
 - Mobitel: ime i MENU/CLOSE su iste širine (svaki pola ekrana) i iste visine; MENU razvučen u širinu kao PiTmArin
 
 ## v1.19 — 12. 11. 2026. · [88a0be9](https://github.com/MoneroMinero/portfolio/commit/88a0be9)
