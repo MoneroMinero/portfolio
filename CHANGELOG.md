@@ -3,7 +3,14 @@
 Svaka verzija je spremljena na GitHubu (**Commits**), a uz svaku verziju ovdje piše njezin kod.
 Na Vercelu pod **Deployments** možeš svaku staru verziju vratiti jednim klikom („Instant Rollback”).
 
-## v1.21 — 13. 11. 2026.
+## v1.22 — 15. 11. 2026.
+- Novi bend: **Kao Rani Mraz** (koncert 14. 11.), galerija u Expanded Work sa svih 19 fotki iz `D:\Web Fotke\Kao Rani Mraz`, naslovna galerije je DSC_3133 (cijela pozornica)
+- Naslovnica: DSC_3380 i DSC_2603 (sad 39 fotki)
+- Atmosphere: DSC_3380 i DSC_3153, razmaknute (sad 18)
+- Portraits: DSC_2603 (sad 8)
+- Live Music: DSC_2850 (pjevač raširenih ruku), da bend ima fotku i tamo
+
+## v1.21 — 13. 11. 2026. · [65e3ac5](https://github.com/MoneroMinero/portfolio/commit/65e3ac5)
 - Novi bendovi s koncerta 12. 11.: **Mars Red Sky** (DSC_1425) i **Monolord** (DSC_1915)
 - Obje fotke dodane na naslovnicu (sad 37) i u Live Music; otvorene njihove galerije u Expanded Work (26 artista)
 
