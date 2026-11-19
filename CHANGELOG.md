@@ -3,6 +3,9 @@
 Svaka verzija je spremljena na GitHubu (**Commits**), a uz svaku verziju ovdje piše njezin kod.
 Na Vercelu pod **Deployments** možeš svaku staru verziju vratiti jednim klikom („Instant Rollback”).
 
+## v1.24 — 19. 11. 2026.
+- Gore lijevo sad piše **PITmArIn** (oba I velika); natpis i dalje iste širine kao Marin Šoštarić
+
 ## v1.23 — 15. 11. 2026.
 - Expanded Work: galerije **Mars Red Sky** (8 fotki) i **Monolord** (12 fotki) popunjene svim fotkama iz `D:\Web Fotke`; glavne fotke ostaju iste
 
