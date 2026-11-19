@@ -5,7 +5,7 @@
 // =====================================================
 const POSTAVKE = {
   ime: "Marin Šoštarić",
-  nadimak: "PITmArIn",                   // piše gore lijevo; kad se pređe mišem, pokaže se pravo ime                 // ime u zaglavlju i naslovu stranice
+  nadimak: "PiTmArIn",                   // piše gore lijevo; kad se pređe mišem, pokaže se pravo ime                 // ime u zaglavlju i naslovu stranice
   podnaslov: "Concert & Portrait Photography",
 
   oMeni: [

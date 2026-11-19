@@ -50,11 +50,11 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
   -webkit-text-stroke: 3px #000; paint-order: stroke fill;
   text-shadow: 0 0 1px #000, 0 2px 6px rgba(0, 0, 0, .9);
 }
-/* PITmArIn → na hover (ili kad se dotakne na mobitelu) Marin Šoštarić */
+/* PiTmArIn → na hover (ili kad se dotakne na mobitelu) Marin Šoštarić */
 .ima-nadimak { display: inline-grid; }
 .ima-nadimak > span { grid-area: 1 / 1; transition: opacity .35s ease, translate .35s ease; }
 .ime-pravo { opacity: 0; translate: 0 6px; }
-.ime-nadimak { text-transform: none; transform: scaleX(1.883); transform-origin: left center; }
+.ime-nadimak { text-transform: none; transform: scaleX(1.901); transform-origin: left center; }
 .ima-nadimak:hover .ime-nadimak, .ima-nadimak:focus-visible .ime-nadimak, .ima-nadimak.pokazi .ime-nadimak { opacity: 0; translate: 0 -6px; }
 .ima-nadimak:hover .ime-pravo, .ima-nadimak:focus-visible .ime-pravo, .ima-nadimak.pokazi .ime-pravo { opacity: 1; translate: 0 0; }
 .izbornik { display: flex; gap: clamp(18px, 3vw, 40px); align-items: center; justify-content: center; }
@@ -399,7 +399,7 @@ main { overflow-x: clip; }
 }
 
 /* ---------- mobitel: ime i MENU iste širine (svaki pola ekrana) i iste visine;
-   MENU/CLOSE razvučen u širinu kao PITmArIn ---------- */
+   MENU/CLOSE razvučen u širinu kao PiTmArIn ---------- */
 @media (max-width: 860px) {
   .zaglavlje { --pola: calc((100vw - var(--gutter) - var(--gutter-d) - 24px) / 2); column-gap: 24px; }
   .ime { font-size: calc(var(--pola) / 13.04); }
